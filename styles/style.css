@@ -224,14 +224,27 @@ main {
     margin-bottom: 60px;
     max-width: 510px;
 }
-footer{ 
+
+footer {
     display: flex;
     justify-content: space-around;
 }
-footer p{
+
+footer p {
     max-width: 560px;
     margin: 20px 0 30;
 }
-.footer-images{
+
+.footer-images {
     margin-right: 25px;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0px;
 }

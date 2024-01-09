@@ -4,6 +4,8 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -19,6 +21,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 
 }
 
@@ -40,4 +43,21 @@ nav a {
     font-size: 20;
     font-weight: 700;
     padding: 18px 35px;
+}
+.secondary-button {
+    border-radius: 5px;
+    background: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-dp{
+    width: 500px;
 }
